@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@500&family=Nunito:wght@500&display=swap" rel="stylesheet">
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@500&family=Nunito:wght@500&display=swap'); 
+    </style>
+    <title>training</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+   
+    <div class="container">
+<nav>MSP Stores</nav>
+
+<aside>
+
+    <div class="aside-container">
+
+        <h2>Category</h2>
+
+        <div class="checkboxes">
+            <input type="checkbox" id="clothes">
+            <label for="clothes">clothes</label>
+    
+            <input type="checkbox" name="food" id="food">
+            <label for="food">food</label>
+    
+            <input type="checkbox" name="electronics" id="electronics">
+            <label for="electronics">electronics</label>
+    
+            <input type="checkbox" id="home & kitchen">
+            <label for="home & kitchen">home & kitchen</label>
+    
+            <input type="checkbox" id="books">
+            <label for="books">books</label>
+    
+            <input type="checkbox" id="beauty">
+            <label for="beauty">beauty</label>
+    
+            <input type="checkbox" id="children">
+            <label for="children">children</label>
+    
+            <input type="checkbox" id="garden">
+            <label for="garden">garden</label>
+    
+            <input type="checkbox" id="art">
+            <label for="art">art</label>
+    
+            <input type="checkbox" id="office">
+            <label for="office">office</label>
+    
+            <input type="checkbox" id="outdoor">
+            <label for="outdoor">outdoor</label>
+    
+            <input type="checkbox" id="sports">
+            <label for="sports">sports</label>
+    
+            <input type="checkbox" id="watches">
+            <label for="watches">watches</label>
+    
+             <input type="checkbox" id="video games">
+            <label for="video games">video games</label>
+        </div>
+ 
+        <form oninput="result.value = slider.value">
+                
+            <span class="price"> 
+                <label for="price">Price</label>
+            </span>
+    
+            <span class="output">  0- <output name="result" for="slider">250</output>$ </span> 
+    
+            <input type="range" id="slider"  min="0" max="500" step="10" value="250"> 
+        </form>
+<br>
+    </div>
+</aside>
+
+<main>
+    <div class="products1 product">
+        
+        <div class="image"><img src="InkedAnnotation 2022-12-24 154425_LI.jpg" alt="product"></div>
+        <p class="title">product name</p >
+        <p class="paragraph">Lorem ipsum dolor, sit amet c...</p>
+    </div>
+    <div class="products2 product">
+      <div class="image2"><img src="InkedAnnotation 2022-12-24 154425_LI.jpg" alt="product2"></div>  
+
+        <div class="details"> 
+            <h1>product name</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi iste accusamus corrupti,
+                nesciunt aspernatur neque reiciendis possimus nulla nostrum quos quas commodi necessitatibus?
+                Cum repellat, voluptatem tempora iusto iste beatae!
+            </p>
+            <hr class="line">
+                <h2 class="offer">Off: <span class="red"> 50<span class="percent">%</span> </span> </h2> 
+                <button class="cart">Add To Carte</button>
+        <br>
+                <button class="more">See More</button>
+        </div>
+    </div>
+    <div class="products3 product">
+        <div class="image"><img src="InkedAnnotation 2022-12-24 154425_LI.jpg" alt="product"></div>
+        <p class="title">product name</p >
+        <p class="paragraph">Lorem ipsum dolor, sit amet c...</p>
+    </div>
+    <div class="products4 product">
+        <div class="image"><img src="InkedAnnotation 2022-12-24 154425_LI.jpg" alt="product"></div>
+        <p class="title">product name</p >
+        <p class="paragraph">Lorem ipsum dolor, sit amet c...</p>
+    </div>
+    <div class="products5 product">
+        <div class="image"><img src="InkedAnnotation 2022-12-24 154425_LI.jpg" alt="product"></div>
+        <p class="title">product name</p >
+        <p class="paragraph">Lorem ipsum dolor, sit amet c...</p>
+    </div>
+</main>
+<br>
+    </div>
+</body>
+</html>
